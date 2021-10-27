@@ -4,11 +4,14 @@
     content: '';
     height: 95px;
  }
+
     /* Google fonts */
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     * {
         font-family: 'Poppins', sans-serif;
     }
+
+
     /* Hover Effects And Colour */
     @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
@@ -61,16 +64,19 @@
       transform: translate(0%, 0%) rotate(0deg) ;
   }
 
+
   /* Image shadow + Round Corner  && Custom Class Made*/ 
     .img-shadow {
         box-shadow: rgb(0 0 0 / 30%) 15px 25px 30px;
         border-radius:25px;
     }        
 
+
   /* What is Ecell Text Width Adjustment */
   .shrink-header {
     max-width: 950px;
   }
+  
 
   /* Elevate on Hover (Use item class for further reference) */
   .item {
