@@ -60,3 +60,14 @@
   .navbar-toggler span:nth-child(3) {
       transform: translate(0%, 0%) rotate(0deg) ;
   }
+
+  /* Image shadow + Round Corner  && Custom Class Made*/ 
+    .img-shadow {
+        box-shadow: rgb(0 0 0 / 30%) 15px 25px 30px;
+        border-radius:25px;
+    }        
+
+  /* What is Ecell Text Width Adjustment */
+  .shrink-header {
+    max-width: 950px;
+  }
