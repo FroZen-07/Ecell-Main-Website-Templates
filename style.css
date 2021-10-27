@@ -71,3 +71,14 @@
   .shrink-header {
     max-width: 950px;
   }
+
+  /* Elevate on Hover (Use item class for further reference) */
+  .item {
+    display: flex;
+    transition: transform ease 300ms;
+  }
+  
+  .item:hover {
+    transform: translate(0, -10px);
+    box-shadow: rgb(0 0 0 / 20%) 5px 15px 20px;
+  }
